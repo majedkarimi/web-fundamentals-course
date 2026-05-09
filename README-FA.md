@@ -186,6 +186,12 @@ parameters
 - Creating arrays
 - Accessing elements
 - `push`
+- `map`
+- `foreach`
+- `filter`
+- `find`
+- `has`
+- `include`
 
 ## Objects (Very Simple)
 
