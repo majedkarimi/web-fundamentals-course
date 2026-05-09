@@ -1,22 +1,22 @@
-# ۱. مفاهیم پایه وب (قبل از کدنویسی)
+# 1. Basic Web Concepts (Before Coding)
 
-خیلی کوتاه ولی مهم.
+Very short but important.
 
-- وب‌سایت چیست
-- مرورگر چیست
-- سرور چیست
-- HTML / CSS / JS هرکدام چه کاری می‌کنند
-- فایل و پوشه چیست
-- ساخت پروژه در یک فولدر
-- ساخت فایل `.html`
+- What is a website
+- What is a browser
+- What is a server
+- What HTML / CSS / JS each do
+- What are files and folders
+- Create a project in a folder
+- Create an `.html` file
 
 ---
 
-# ۲. HTML (ساختار صفحه)
+# 2. HTML (Page Structure)
 
-هدف: بتوانند یک صفحه کامل بسازند.
+Goal: Be able to build a complete page.
 
-## ساختار پایه
+## Basic Structure
 
 - `<!DOCTYPE html>`
 - `html`
@@ -25,27 +25,27 @@
 - `title`
 - `meta`
 
-## تگ‌های متنی
+## Text Tags
 
 - `h1 → h6`
 - `p`
 - `br`
 - `span`
 
-## لینک و رسانه
+## Links & Media
 
 - `a`
 - `img`
 - `target`
 - `alt`
 
-## لیست‌ها
+## Lists
 
 - `ul`
 - `ol`
 - `li`
 
-## ساختار صفحه
+## Page Structure
 
 - `div`
 - `section`
@@ -54,7 +54,7 @@
 - `nav`
 - `main`
 
-## فرم‌ها
+## Forms
 
 - `form`
 - `input`
@@ -64,35 +64,35 @@
 - `select`
 - `option`
 
-## مفاهیم مهم
+## Important Concepts
 
 - attribute
 - class
 - id
 - nesting
-- تگ‌های معنایی (semantic)
+- semantic tags
 
 ---
 
-# ۳. CSS (استایل دادن)
+# 3. CSS (Styling)
 
-هدف: بتوانند ظاهر سایت را کنترل کنند.
+Goal: Be able to control the look of the site.
 
-## اضافه کردن CSS
+## Adding CSS
 
-- inline (درون خطی)
-- internal (داخلی)
-- external (خارجی - فایل جدا)
+- inline
+- internal
+- external stylesheet
 
-## انتخاب‌گرها (Selectors)
+## Selectors
 
-- انتخاب‌گر عنصر (element)
-- انتخاب‌گر کلاس (class)
-- انتخاب‌گر آیدی (id)
-- nesting (تودرتو)
-- انتخاب‌گر گروهی (group)
+- element selector
+- class selector
+- id selector
+- nesting
+- group selector
 
-## متن
+## Text
 
 - `color`
 - `font-size`
@@ -100,64 +100,64 @@
 - `font-weight`
 - `text-align`
 
-## پس‌زمینه
+## Background
 
 - `background-color`
 - `background-image`
 
-## باکس مدل (Box Model)
+## Box Model
 
-مفهوم بسیار مهم:
+Very important concept:
 
-- `margin` (فاصله بیرونی)
-- `padding` (فاصله درونی)
-- `border` (حاشیه)
-- `width` (عرض)
-- `height` (ارتفاع)
+- `margin`
+- `padding`
+- `border`
+- `width`
+- `height`
 
 ## Display
 
-- `block` (بلوکی)
-- `inline` (خطی)
-- `inline-block` (خطی-بلوکی)
+- `block`
+- `inline`
+- `inline-block`
 
-## فلکس باکس (Flexbox) — خیلی مهم
+## Flexbox (Very Important)
 
 - `display: flex`
-- `justify-content` (چینش افقی)
-- `align-items` (چینش عمودی)
-- `flex-direction` (جهت)
-- `gap` (فاصله بین آیتم‌ها)
+- `justify-content`
+- `align-items`
+- `flex-direction`
+- `gap`
 
-## چیدمان ساده (Layout)
+## Simple Layout
 
-- وسط‌چین کردن یک عنصر
-- ساخت کارت (card)
-- ساخت نوبار ساده (navbar)
+- Centering an element
+- Building a card
+- Building a simple navbar
 
-## واکنش‌گرایی خیلی ساده (Responsive)
+## Very Simple Responsive
 
 - `max-width`
-- `media query` ساده
+- Simple `media query`
 
 ---
 
-# ۴. جاوااسکریپت پایه (Basic JavaScript)
+# 4. Basic JavaScript
 
-هدف: فهم منطق برنامه‌نویسی.
+Goal: Understand programming logic.
 
-## متغیرها
+## Variables
 
 - `let`
 - `const`
 
-## انواع داده
+## Data Types
 
-- string (رشته)
-- number (عدد)
-- boolean (درست/غلط)
+- string
+- number
+- boolean
 
-## عملگرها
+## Operators
 
 - `+`
 - `-`
@@ -165,115 +165,115 @@
 - `/`
 - `===`
 
-## شرط‌ها
+## Conditionals
 
 ```
-if (اگر)
-else (در غیر این صورت)
-else if (در غیر این صورت اگر)
+if
+else
+else if
 ```
 
-## توابع
+## Functions
 
 ```
-function (تعریف تابع)
-return (برگشت مقدار)
-parameters (پارامترها)
+function
+return
+parameters
 ```
 
-## آرایه‌ها
+## Arrays
 
-- ساخت آرایه
-- دسترسی به عناصر
-- `push` (اضافه کردن)
-- `map` (نگاشت)
-- `forEach` (برای هر عنصر)
-- `filter` (فیلتر کردن)
-- `find` (پیدا کردن)
-- `includes` (شامل بودن)
-- `has` (داشتن)
+- Creating arrays
+- Accessing elements
+- `push`
+- `map`
+- `foreach`
+- `filter`
+- `find`
+- `has`
+- `include`
 
-## آبجکت‌ها (خیلی ساده)
+## Objects (Very Simple)
 
-- key / value (کلید / مقدار)
+- key / value
 
 ---
 
-# ۵. جاوااسکریپت در مرورگر
+# 5. JavaScript in the Browser
 
-اینجا برنامه‌نویسی واقعی شروع می‌شود.
+This is where real programming begins.
 
-## اتصال JS به HTML
+## Connecting JS to HTML
 
 - `<script>`
 
-## کنسول
+## Console
 
 - `console.log`
 
-## انتخاب عنصر
+## Selecting Elements
 
 - `document.querySelector`
 - `getElementById`
 
-## تغییر محتوا
+## Changing Content
 
 - `innerText`
 - `innerHTML`
 
-## تغییر استایل
+## Changing Styles
 
 - `.style`
 
-## رویدادها (Events)
+## Events
 
-- `click` (کلیک)
-- `input` (ورودی)
+- `click`
+- `input`
 
-## شنونده رویداد (Event Listener)
+## Event Listeners
 
 ```
 addEventListener
 ```
 
-## ایجاد عنصر
+## Creating Elements
 
 - `createElement`
 - `appendChild`
 
-## حذف عنصر
+## Removing Elements
 
 - `remove`
 
 ---
 
-# ۶. پروژه‌های تمرینی
+# 6. Practice Projects
 
-خیلی مهم است که پروژه بسازند.
+It's very important they build projects.
 
-پروژه‌های مناسب این سطح:
+Projects suitable for this level:
 
-- صفحه معرفی شخصی
-- کارت پروفایل
-- صفحه علایق
-- نوبار ساده
-- گالری عکس
-- **لیست کارهای روزانه (Todo list) ساده**
-- دکمه تغییر رنگ
-- شمارنده
+- Personal introduction page
+- Profile card
+- Interests page
+- Simple navbar
+- Image gallery
+- **Simple Todo list**
+- Color change button
+- Counter
 
 ---
 
-# ۷. گیت (Git) — خیلی پایه
+# 7. Git (Very Basic)
 
-فقط در حد استفاده برای پروژه.
+Just enough for project usage.
 
-## مفاهیم
+## Concepts
 
-- version control (کنترل نسخه) چیست
-- repository (مخزن) چیست
+- What is version control
+- What is a repository
 
-## دستورات
+## Commands
 
 ```
 git init
@@ -284,35 +284,35 @@ git status
 
 ---
 
-# ۸. گیت‌هاب (GitHub)
+# 8. GitHub
 
-هدف: پروژه را آنلاین بگذارند.
+Goal: Put the project online.
 
-- ساخت اکانت
-- ساخت repository (مخزن)
-- push کردن پروژه
+- Create an account
+- Create a repository
+- Push the project
 
-## دستورات
+## Commands
 
 ```
 git remote add origin
 git push
 ```
 
-## مفاهیم
+## Concepts
 
-- commit (ثبت تغییرات)
-- repo (مخزن)
-- push (ارسال)
+- commit
+- repo
+- push
 
 ---
 
-# ۹. مهارت‌هایی که باید یاد بگیرند
+# 9. Skills They Must Learn
 
-این‌ها حتی از تکنولوژی مهم‌ترند.
+These are even more important than technology.
 
-- خواندن ارورها
-- استفاده از Google
-- استفاده درست از AI
-- دیباگ با `console.log`
-- شکستن مسئله به بخش‌های کوچک
+- Reading errors
+- Using Google
+- Using AI properly
+- Debugging with `console.log`
+- Breaking problems into smaller parts
